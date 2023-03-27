@@ -10,9 +10,9 @@ int main() {
         num = rand() % 100 + 1;
 // generate a random number between 1 and 100
         count = 0; 
-        printf("I'm thinking of a number between 1 and 100. Guess what 	it is!\n"); 
+        printf("I'm thinking of a number between 1 and 100. Guess what it is!\n"); 
         do {
-            printf("Enter your guess: "); 
+            printf("Enter your guess : "); 
             scanf("%d", &guess); 
             count++; 
             if (guess > num) { 
@@ -20,7 +20,7 @@ int main() {
             } else if (guess < num) { 
                 printf("Too low! Guess again.\n"); 
             } else { 
-                printf("Congratulations! You guessed the number in %d attempts.\n", count); 
+                printf("Congratulations! You guessed the number in %d attempts .\n", count); 
             }
         }while (guess != num);
         printf("Do you want to play again? (y/n) ");
