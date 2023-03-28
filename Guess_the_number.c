@@ -1,18 +1,19 @@
+//Guess The Number Game in C language
 //import different built in libraries to write a code
 
-#include    <stdio.h> 
-#include    <stdlib.h> 
-#include    <time.h> 
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <time.h> 
 
 //make a main function
 int main()
 { 
-    //declare     variables     for     the     following     code
-    int guess, num, count = 0;  
+    //declare variables for the following code
+    int guess, num, count = 0; 
     char choice; 
     srand(time(NULL));
-    // seed     the     random     number     generator 
-    do                                  {
+    // seed the random number generator 
+    do {
         num = rand()  %  100 + 1;
     // generate a random number between 1 and 100
         count = 0; 
@@ -32,7 +33,7 @@ int main()
         printf("Do   you   want  to    play   again  ?     (y/n) ");
         scanf(" %c",      &choice);
 
-// include a space before %c to consume any white space characters in 	the input buffer 
+// include a space before %c to consume any white space characters in the input buffer 
         
         }while (choice == 'y');
             printf("Thanks for  playing ! Goodbye.\n"); 
