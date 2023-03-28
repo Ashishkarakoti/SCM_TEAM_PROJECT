@@ -11,7 +11,7 @@ int main()
     //declare variables for the following code
     int guess, num, count = 0; 
     char choice; 
-    srand(time(NULL));
+    srand(time(NULL)); 
            // seed the random number generator 
     do {
         num = rand()  %  100 + 1;
