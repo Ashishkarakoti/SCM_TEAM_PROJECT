@@ -8,7 +8,7 @@
 //make a main function
 int main()
 { 
-    //declare variables for the following code
+    //declare variables for the  following code
     int guess, num, count = 0; 
     char choice; 
     srand(time(NULL));
