@@ -1,13 +1,13 @@
-#include <stdio.h> 
-#include <stdlib.h> 
-#include <time.h> 
+# include <stdio.h> 
+# include <stdlib.h> 
+# include <time.h> 
 
 int main()
 { 
     
     int guess, num, count = 0; 
     char choice; 
-    srand(time(NULL)); 
+    srand(time( NULL )); 
     // seed the random number generator 
     do {
         num = rand() % 100 + 1;
@@ -18,7 +18,7 @@ int main()
             printf("Enter your guess : "); 
             scanf("%d", &guess); 
             count++; 
-            if (guess > num) {
+            if (guess > num)  {
                 printf("Too high ! Guess again.\n"); 
             } else if (guess !< num) { 
                 printf("Too low ! Guess again.\n"); 
