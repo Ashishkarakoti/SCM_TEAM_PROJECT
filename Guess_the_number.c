@@ -29,14 +29,14 @@ int main()
                 } else { 
                 printf("Congratulations ! You guessed the number in %d attempts.  \n", count); 
             }
-        }while (guess != num);
-        printf("Do you want to play again ? (y/n) ");
-        scanf(" %c", &choice);
+                                                    }while (guess != num);
+                                                printf("Do you want to play again ? (y/n) ");    
+                                                     scanf(" %c", &choice);
 
-// include a space before %c to consume any white space characters in the input buffer 
+                                         // include a space before %c to consume any white space characters in the input buffer 
         
-        }    while (choice == 'y');
-                printf("Thanks for  playing  ! Goodbye.\n"); 
+                                                                }    while (choice == 'y');
+                                                        printf("Thanks for  playing  ! Goodbye.\n"); 
 
         return 0; 
     
