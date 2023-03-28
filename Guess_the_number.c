@@ -1,13 +1,16 @@
-# include <stdio.h> 
-# include <stdlib.h> 
-# include <time.h> 
+//import different built in libraries to write a code
 
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <time.h> 
+
+//make a main function
 int main()
 { 
-    
+    //declare variables for the following code
     int guess, num, count = 0; 
     char choice; 
-    srand(time( NULL )); 
+    srand(time(NULL)); 
     // seed the random number generator 
     do {
         num = rand() % 100 + 1;
@@ -18,13 +21,11 @@ int main()
             printf("Enter your guess : "); 
             scanf("%d", &guess); 
             count++; 
-            if (guess > num)  {
+            if (guess > num) {
                 printf("Too high ! Guess again.\n"); 
-            } 
-            else if (guess !< num) { 
+            } else if (guess !< num) { 
                 printf("Too low ! Guess again.\n"); 
-            } 
-            else { 
+            } else { 
                 printf("Congratulations ! You guessed the number in %d attempts .\n", count); 
             }
         }while (guess != num);
