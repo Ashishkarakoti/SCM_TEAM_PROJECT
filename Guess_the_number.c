@@ -36,7 +36,7 @@ int main()
 // include     a     space     before    %c     to     consume     any     white     space     characters     in     the     input     buffer 
         
         }    while (choice == 'y');
-                printf("Thanks for  playing ! Goodbye.\n"); 
+                printf("Thanks for  playing  ! Goodbye.\n"); 
 
         return 0; 
     
