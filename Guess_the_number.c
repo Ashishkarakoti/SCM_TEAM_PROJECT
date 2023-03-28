@@ -12,9 +12,9 @@
          count = 0; 
          printf("I'm thinking of a number between 1 and 100. Guess what it is!\n"); 
          do {
-             printf("Enter your guess : "); 
-             scanf("%d", &guess); 
-             count++; 
+              printf("Enter your guess : "); 
+              scanf("%d", &guess); 
+              count++; 
             if (guess > num) { 
                 printf("Too high! Guess again.\n"); 
             } else if (guess < num) { 
