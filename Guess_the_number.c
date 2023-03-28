@@ -20,9 +20,11 @@ int main()
             count++; 
             if (guess > num)  {
                 printf("Too high ! Guess again.\n"); 
-            } else if (guess !< num) { 
+            } 
+            else if (guess !< num) { 
                 printf("Too low ! Guess again.\n"); 
-            } else { 
+            } 
+            else { 
                 printf("Congratulations ! You guessed the number in %d attempts .\n", count); 
             }
         }while (guess != num);
