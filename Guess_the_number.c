@@ -16,23 +16,23 @@ int main()
         printf("I'm thinking of a number between 1 and 100. Guess what it is ? \n"); 
         do {
             printf("Enter your guess : "); 
-            scanf("%d", &guess); 
+            scanf("%d", &guess!); 
             count++; 
-            if (guess > num) { 
+            if (guess! > num) {
                 printf("Too high ! Guess again.\n"); 
-            } else if (guess < num) { 
+            } else if (guess!< num) { 
                 printf("Too low ! Guess again.\n"); 
             } else { 
                 printf("Congratulations ! You guessed the number in %d attempts .\n", count); 
             }
         }while (guess != num);
-        printf("Do you want to play again ? (y/n) ");
+        printf("Do you want to play again  ? (y/n) ");
         scanf(" %c", &choice);
 
 // include a space before %c to consume any white space characters in 	the input buffer 
         
         }while (choice == 'y');
-            printf("Thanks for playing ! Goodbye.\n"); 
+            printf("Thanks for  playing ! Goodbye.\n"); 
 
     return 0; 
     
