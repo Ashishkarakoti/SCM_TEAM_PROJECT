@@ -1,7 +1,7 @@
-#include  <stdio.h> 
-#include  <stdlib.h> 
-#include  <time.h> 
-int main()  { 
+ #include  <stdio.h> 
+ #include  <stdlib.h> 
+ #include  <time.h> 
+ int main()  { 
     
     int guess, num, count = 0; 
     char choice; 
@@ -25,7 +25,7 @@ int main()  {
         }while (guess != num);
         printf("Do you want to play again? (y/n) ");
         scanf(" %c", &choice);
-// include a space before %c to consume any white space characters in 	the input buffer 
+                                                                    // include a space before %c to consume any white space characters in 	the input buffer 
         }while (choice == 'y');
             printf("Thanks for playing! Goodbye.\n"); 
 
