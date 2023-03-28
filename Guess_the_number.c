@@ -14,7 +14,7 @@ int main()
     srand(time(NULL)); 
            // seed the random number generator 
     do {
-        num = rand()  %  100 + 1;
+        num = rand()  %  100 + 1;  
            // generate a random number between 1 and 100
         count = 0; 
         printf("I'm thinking of a number between 1 and 100. Guess what it is ? \n"); 
